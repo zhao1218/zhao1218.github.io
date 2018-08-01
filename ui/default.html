@@ -1,0 +1,530 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>美工培训_奥骞网络科技</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery.js"></script>
+    <!--myjs-->
+    <script src="js/myjs.js"></script>
+    <!--动效-->
+    <link href="css/animate.css" type="text/css"  rel="stylesheet" />
+    <script src="js/wow.min.js" type="text/javascript"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script type="text/javascript" src="js/danei.js"></script>
+    
+</head>
+
+<body onLoad="changeUrl();">
+    
+    <script type="text/javascript">
+    function changeUrl(){
+        var url=location.href;
+        var s = url.indexOf("?");
+        if(s!=-1){
+            var getStr=url.substr(s);
+            var arr=document.getElementsByTagName("a");
+            for(var i=0;i<arr.length;i++){
+                var href=arr[i].getAttribute("href");
+                if(href.indexOf("?")==-1){
+                    arr[i].setAttribute("href",href+getStr);
+                }else{
+                    arr[i].setAttribute("href",href+getStr.replace("?","&"));
+                }
+                
+            }
+        }
+    }
+    </script>
+    
+    
+<div class="wrap">
+
+    <div class="header">
+        <div class="header-main">
+            <img class="logo fl" src="img/aq_logo.png" />
+            <div class="logo-text fl">
+                <div class="fl">
+                    <p>IT职业技术实训基地</p>
+                    <p>大学生实习见习基地</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="phone fr">
+                <p>咨询电话：023-65371995</p>
+                
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="nav">
+            <ul>    
+             <li><a href="http://cq.ui.tedu.cn/ys/ui/?TARENA_cqq-cq-BD-PC-PZ-zh-pp-1792079-000-180111000000_TARENA&amp;bdpz-pc" target="_blank">网站首页</a></li>
+                            <li><a href="http://cq.ui.tedu.cn/ys/web/#?TARENA_cqq-cq-BD-PC-PZ-zh-pp-1792079-000-180111000000_TARENA&amp;bdpz-pc" class="act">课程分类</a></li>
+                            <li><a href="http://cq.ui.tedu.cn/ys/zuopin/?TARENA_cqq-cq-BD-PC-PZ-zh-pp-1792079-000-180111000000_TARENA&amp;bdpz-pc" target="_blank">学员作品</a></li>
+                            <li><a href="http://cq.ui.tedu.cn/ys/xyjy/?TARENA_cqq-cq-BD-PC-PZ-zh-pp-1792079-000-180111000000_TARENA&amp;bdpz-pc" target="_blank">学员就业</a></li>
+                            <li><a href="http://cq.ui.tedu.cn/ys/jc/?TARENA_cqq-cq-BD-PC-PZ-zh-pp-1792079-000-180111000000_TARENA&amp;bdpz-pc" target="_blank">设计教程</a></li>
+                            
+                            <li><a href="http://cq.ui.tedu.cn/ys/jianj/?TARENA_cqq-cq-BD-PC-PZ-zh-pp-1792079-000-180111000000_TARENA&amp;bdpz-pc" target="_blank">课程简介</a></li>
+                            <li><a href="http://cq.ui.tedu.cn/ys/dn/?TARENA_cqq-cq-BD-PC-PZ-zh-pp-1792079-000-180111000000_TARENA&amp;bdpz-pc" target="_blank">了解达内</a></li>
+                            <li><a href="http://cq.ui.tedu.cn/?TARENA_cqq-cq-BD-PC-PZ-zh-pp-1792079-000-180111000000_TARENA&amp;bdpz-pc" target="_blank">更多资讯</a></li>
+                        </ul>
+                    </div>
+        <div class="nav2 open-baidu-brg">
+            <ul><li><a class="first"   href="javascript:void(0)">UI设计</a></li>
+                <li><a href="javascript:void(0)">UE设计</a></li>
+                <li><a href="javascript:void(0)">web前端设计</a></li>
+                <li><a href="javascript:void(0)">PS培训</a></li>
+                <li><a href="javascript:void(0)">网页设计</a></li>
+                <li><a href="javascript:void(0)">平面设计</a></li>
+                <li><a href="javascript:void(0)">淘宝美工</a></li>
+                <li><a href="javascript:void(0)">Axure培训</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="content">
+        <div id="banner">
+            <div class="tutu">
+                <div class="zhentu">
+                </div>
+                <div class="maonimen">
+                    <div>
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                    </div>
+                </div>
+            </div>
+            <ul class="dianul">
+                <li class="cur"></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="part bg1">
+            <div class="main">
+                <div class="tbmg01 clearfix">
+                    <div class="box fl wow fadeInLeftBig" data-wow-delay="0.2s">
+                        <h1>你眼中的是电商美工</h1>
+                        <img src="picture/bar1.gif" />
+                        <div class="img">
+                            <img src="picture/tbmg01-img1.jpg" />
+                        </div>
+                    </div>
+                    <div class="box fr wow fadeInRightBig" data-wow-delay="0.2s">
+                        <h1>企业需求的是电商设计</h1>
+                        <img src="picture/bar2.gif" />
+                        <div class="img">
+                            <img src="picture/tbmg01-img2.jpg" />
+                        </div>
+                    </div>
+                    <h1 class="title">设计评分</h1>
+                    <div class="ok wow tada" data-wow-delay="0.4s"></div>
+                </div>
+            </div>
+        </div>
+        <div class="part bg2">
+            <div class="main">
+                <div class="tbmg02 clearfix">
+                    <div class="title">
+                        <h1>电商设计师是互联网+时代的<span>黄金职业</span></h1>
+                        <h2>前景广 就业好 薪资高，淘宝美工（电商设计师）已成为人才市场上十分紧俏的职业，就业行业前景非常广阔。</h2>
+                    </div>
+                    <div class="rotate">
+                        <img class="r6" src="picture/r6.png" />
+                        <img class="r7" src="picture/r7.png" />
+                        <img class="r8" src="picture/r8.png" />
+                        <img class="r9" src="picture/r9.png" />
+                        <img class="r14" src="picture/r14.png" />
+                        <div class="rotate1">
+                            <img class="r1" src="picture/r1.png" />
+                            <img class="r2" src="picture/r2.png" />
+                            <img class="r3" src="picture/r3.png" />
+                            <img class="r4" src="picture/r4.png" />
+                            <img class="r5" src="picture/r4.png" />
+                        </div>
+                        <div class="rotate2">
+                            <img class="r10" src="picture/r10.png" />
+                            <img class="r11" src="picture/r11.png" />
+                            <img class="r12" src="picture/r12.png" />
+                            <img class="r13" src="picture/r13.png" />
+                        </div>
+                    </div>
+                    <div class="container clearfix">
+                        <div class="box clearfix wow fadeInLeft" data-wow-delay="0.2s">
+                            <div class="title-img">
+                                <h1>高<br/>
+                                    Higher</h1>
+                            </div>
+                            <div class="info">
+                                <h1>就业薪资高</h1>
+                                <h2>智联招聘显示电商设计师<br/>
+                                    平均薪资高达7516元。</h2>
+                            </div>
+                        </div>
+                        <div class="box clearfix wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="title-img">
+                                <h1>多<br/>
+                                    More</h1>
+                            </div>
+                            <div class="info">
+                                <h1>工作机会多</h1>
+                                <h2>淘宝美工为企业急需人，<br/>
+                                    职位缺口近200000个。</h2>
+                            </div>
+                        </div>
+                        <div class="box clearfix wow fadeInRight" data-wow-delay="0.2s">
+                            <div class="title-img">
+                                <h1>广<br/>
+                                    Broader</h1>
+                            </div>
+                            <div class="info">
+                                <h1>发展方向广</h1>
+                                <h2>更容易转型为网站设计师、<br/>
+                                    UI设计师、产品经理等。</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="part bg1">
+            <div class="main">
+                <div class="tbmg03">
+                    <div class="title">
+                        <h1>学习设计原理，拒绝单纯软件操作</h1>
+                        <h2>从商业案例的讲解中贯穿设计软件的使用，让学员不只是单纯学软件操作，更懂得设计软件的使用技巧与设计原理的完美融合。</h2>
+                    </div>
+                    <div class="container clearfix">
+                        <div class="box wow flipInX" data-wow-delay="0.4s">
+                            <img src="picture/t1.png" />
+                            <h1>Photoshop</h1>
+                            <h2>图像编辑与合成</h2>
+                        </div>
+                        <div class="box wow flipInX" data-wow-delay="0.2s">
+                            <img src="picture/t2.png" />
+                            <h1>After Effects</h1>
+                            <h2>电影视觉和动态图形</h2>
+                        </div>
+                        <div class="box wow flipInX" data-wow-delay="0.2s">
+                            <img src="picture/t3.png" />
+                            <h1>Illustrator</h1>
+                            <h2>矢量图形和插图</h2>
+                        </div>
+                        <div class="box wow flipInX" data-wow-delay="0.4s">
+                            <img src="picture/t4.png" />
+                            <h1>InDesign</h1>
+                            <h2>页面设计和排版</h2>
+                        </div>
+                        <div class="box wow flipInX" data-wow-delay="0.4s">
+                            <img src="picture/t5.png" />
+                            <h1>HTML5</h1>
+                            <h2>图像编辑与合成</h2>
+                        </div>
+                        <div class="box wow flipInX" data-wow-delay="0.2s">
+                            <img src="picture/t6.png" />
+                            <h1>Fireworks</h1>
+                            <h2>网页作图软件</h2>
+                        </div>
+                        <div class="box wow flipInX" data-wow-delay="0.2s">
+                            <img src="picture/t7.png" />
+                            <h1>Dreamweaver</h1>
+                            <h2>Web和移动设计</h2>
+                        </div>
+                        <div class="box wow flipInX" data-wow-delay="0.4s">
+                            <img src="picture/t8.png" />
+                            <h1>CSS</h1>
+                            <h2>图像编辑与合成</h2>
+                        </div>
+                    </div>
+                    <a class="btn open-baidu-brg"  href="javascript:void(0)">全部学习</a>
+                </div>
+            </div>
+        </div>
+        <div class="part bg3">
+            <div class="main">
+                <div class="tbmg04">
+                    <div class="title">
+                        <h1>符合企业需求的<span>电商设计</span></h1>
+                        <h2>电商设计要与商业活动相关，要在商业目的上做合适的设计。<br/>
+                            设计一方面要掌握色彩构成、平面构成、立体构成，也要里了解文案创意、市场营销、用户体验。</h2>
+                    </div>
+                    <div class="box b1 wow flipInY" data-wow-delay="0.2s">
+                        <div class="tag t1"></div>
+                        <h1>文案/创意</h1>
+                    </div>
+                    <div class="box b2 wow flipInY" data-wow-delay="0.2s">
+                        <div class="tag t2"></div>
+                        <h1>网页构成</h1>
+                    </div>
+                    <div class="box b1 wow flipInY" data-wow-delay="0.4s">
+                        <div class="tag t3"></div>
+                        <h1>色彩搭配</h1>
+                    </div>
+                    <div class="box b2 wow flipInY" data-wow-delay="0.4s">
+                        <div class="tag t4"></div>
+                        <h1>市场营销</h1>
+                    </div>
+                    <div class="box b1 wow flipInY" data-wow-delay="0.6s">
+                        <div class="tag t5"></div>
+                        <h1>用户体验研究</h1>
+                    </div>
+                    <div class="box b2 wow flipInY" data-wow-delay="0.6s">
+                        <div class="tag t6"></div>
+                        <h1>消费者心理</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="part bg1">
+            <div class="main">
+                <div class="tbmg05">
+                    <div class="title">
+                        <h1>电商设计师(淘宝美工)<span>课程设计</span></h1>
+                        <h2>奥骞美工课程</h2>
+                    </div>
+                    <div class="line">
+                        <div class="num n1">
+                            <p>1</p>
+                            <div class="box">
+                                <h1>基础知识及<br/>
+                                    设计色彩使用</h1>
+                                <div class="tag">
+                                    <h2>一、<br/>
+                                        阶段</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="num n2">
+                            <p>2</p>
+                            <div class="box">
+                                <h1>基础知识及<br/>
+                                    设计色彩使用</h1>
+                                <div class="tag">
+                                    <h2>第二<br/>
+                                        阶段</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="num n3">
+                            <p>3</p>
+                            <div class="box">
+                                <h1>基础知识及<br/>
+                                    设计色彩使用</h1>
+                                <div class="tag">
+                                    <h2>第三<br/>
+                                        阶段</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="num n4">
+                            <p>4</p>
+                            <div class="box">
+                                <h1>基础知识及<br/>
+                                    设计色彩使用</h1>
+                                <div class="tag">
+                                    <h2>第四<br/>
+                                        阶段</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="num n5">
+                            <p>5</p>
+                            <div class="box">
+                                <h1>基础知识及<br/>
+                                    设计色彩使用</h1>
+                                <div class="tag">
+                                    <h2>第五<br/>
+                                        阶段</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <img class="l1 wow fadeInDown" data-wow-delay="0.3s" src="picture/line2-1.png" />
+                        <img class="l2 wow fadeInLeft" data-wow-delay="0.5s" src="picture/line2-2.png" />
+                        <img class="l3 wow fadeInRight" data-wow-delay="0.7s" src="picture/line2-3.png" />
+                        <img class="l4 wow fadeInRight" data-wow-delay="0.9s" src="picture/line2-4.png" />
+                        <div class="box b1 wow fadeInLeft" data-wow-delay="0.2s">
+                            <div class="top t1">
+                                <h1>一、阶段：<br/>
+                                    基础知识及设计色彩使用</h1>
+                            </div>
+                            <div class="info">
+                                <p>摄影基础</p>
+                                <p>光线认识、影调认识、摄影的作用</p>
+                                <p>相机菜单及功能剖析：相机成像原理及操作</p>
+                                <p>模特选择</p>
+                                <p>造型定位</p>
+                                <p>场景选择</p>
+                                <p>光线控制</p>
+                                <p>构图要求</p>
+                                <p>素描与光影绘制训练</p>
+                                <p>课程通过绘制几何形体，理解光照射物体时明暗变化的层次关系</p>
+                                <p>理解光影素描中“素描5大调子”</p>
+                                <p>色彩的知识和实际应用</p>
+                                <p>设计中的色彩搭配：绘画是对自然界色彩分析与再现，当把色彩从实际物体上分离出来的时候，色彩不但影响视觉同事产生色彩心理暗示。</p>
+                                <img src="picture/tbmg05-img1.jpg" />
+                            </div>
+                        </div>
+                        <div class="box b2 wow fadeInRight" data-wow-delay="0.4s">
+                            <div class="top t2">
+                                <h2>第二阶段：设计软件学习</h2>
+                            </div>
+                            <div class="info">
+                                <p>Photoshop教学，强大的专业图像处理软件基本概述，图像模式设计，选取的的意义、分类，物体透视立体效果，招牌贴图等。</p>
+                                <p>illustrator教学，工具的具体使用方法与应用技巧</p>
+                                <p>CorelDRAW教学，主要术语和概念讲解、文件的基本操作、图形的绘制（卡通、漫画的等）、对象的造型编辑（变形、组合、分解）</p>
+                                <p>InDesign表格制作InDesign目录与索引InDesign绘图、InDesign颜色控制、InDesign文件输出、实例制作。</p>
+                                <p>图形的绘制及路径的使用，实例制作：物体透视立体效果，招牌贴图、展板制作、影楼图像处理、封面设计、平面广告设计、海报设计、网页设计、UI设计的制作。</p>
+                                <p>flash c6强大的二维动画软件</p>
+                                <p>广泛用于网页中的动画广告、动画效果；房产行业均为flash整站，效果夺目，引人眼球；大幅度增加网页观赏性。</p>
+                                <img src="picture/tbmg05-img2.jpg" />
+                            </div>
+                        </div>
+                        <div class="box b3 wow fadeInLeft" data-wow-delay="0.6s">
+                            <div class="top t3">
+                                <h1>第三阶段：<br/>
+                                    平面与美学设计（平面+电商）</h1>
+                            </div>
+                            <div class="info">
+                                <p>配色美学：色彩在banner、主图、直通车的设计应用</p>
+                                <p>明度轴线：色相饱和度、蒙版、伦勃朗光影技术...</p>
+                                <p>色相轴线：色系、色调的控制</p>
+                                <p>构图美学：比例结构、节奏、画面层次的关系、前景遮挡、韵律规则、景深关系、透视关系、包容与迫性法则、黄金分割、留白与压迫式主题设计...</p>
+                                <p>风格美学：风格处理手法</p>
+                                <p>英伦风：怀旧犹豫；小清新；高明度轴线、色系相近；</p>
+                                <p>中国风：中国风元素运用与执行技法；古朴风：低调的奢华、色相冷暖的运用；喜庆风：高饱和度的调性调配；</p>
+                                <p>简约风：中间色的柔性关系</p>
+                                <p>宝贝详情页版面规范定个设计</p>
+                                <p>宝贝详情页面风格设计与版面编排控制</p>
+                                <p>宝贝详情页的形式创作与信息传递</p>
+                                <p>掌握设计美学药店，熟悉平面视觉设计规范、能驾驭（平面+电商）设计的各个环节，具有高级电商设计师的能力。网页设计的主要视觉元素。了解网页设计中的要素及其在网页设计的应用。</p>
+                                <img src="picture/tbmg05-img3.jpg" />
+                            </div>
+                        </div>
+                        <div class="box b4 wow fadeInRight" data-wow-delay="0.8s">
+                            <div class="top t4">
+                                <h1>第四阶段：<br/>
+                                    网站页面设计与制作课程</h1>
+                            </div>
+                            <div class="info">
+                                <p>主要学习XHTML基础；表格、图像、链接、表单元素、CSS；常用的JavaScript；常用的web应用程序开发技术，用户注册和登录网页；网站技术规范；网站重构，CSS+div技术的应用</p>
+                                <p>HTML语言简洁；使用表单、框架的使用，iframe的作用；网页特效（JavaScript）</p>
+                                <p>CSS基础知识篇：XHTML基础，选择合适的doctype，选择合适的标签。CSS语法结构，CSS属性与选择符，类型选择符，ID及CLASS选择符。</p>
+                                <p>CSS语法结构：样式的优先权问题；认识DIV以及盒子模型；盒子模型详解以及上下左右叠加问题</p>
+                                <p>CSS内容排版：文字排版，通栏排版，分栏排版，图文混合排版，图片基础控制，不规则文字环绕，全图排版等等</p>
+                                <p>CSS高级应用于技巧：id与class；CSS代码缩写；CSS代码优化，增加代码重复率，使用样式覆盖进行简化</p>
+                                <p>JavaScript特效基本知识；用JavaScript控制CSS特效；SPRY框架应用（选项卡、tab面板、折叠面板、伸缩面板）</p>
+                                <img src="picture/tbmg05-img4.jpg" />
+                            </div>
+                        </div>
+                        <div class="box b5 wow fadeInUp" data-wow-delay="1s">
+                            <div class="top t5">
+                                <h2>第五阶段：网店页面设计和课程</h2>
+                            </div>
+                            <div class="info">
+                                <p>店铺首页设计：店铺首页分析；店招设计方法；首屏海报，促销区新品、产品展示方法；首页展位设计、海报、轮播、背景。</p>
+                                <p>详情页设计：产品修图（调色、阴影、玻璃透明）；关联；产品参数、尺码表等；详情底部。</p>
+                                <p>店铺整体设计实训：装修店铺的颜色搭配技巧实训；首页单品海报和活动海报的制作；整体风格打造；首页布局和装修模板应用技巧；淘宝产品定位于风格确定；视觉营销和市场导向。</p>
+                                <img src="picture/tbmg05-img5.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="part bg4">
+            <div class="main">
+                <div class="tbmg06">
+                    <div class="title">
+                        <h1>符合企业需求的<span>电商设计</span></h1>
+                        <h2>电商设计要与商业活动相关，要在商业目的上做合适的设计。<br/>
+                            设计一方面要掌握色彩构成、平面构成、立体构成，也要里了解文案创意、市场营销、用户体验。</h2>
+                    </div>
+                    <div class="container clearfix">
+                        <div class="box b1 wow bounceIn" data-wow-delay="0.2s">
+                            <h1>薪资更高</h1>
+                            <img src="picture/tbmg06-img1.png" />
+                            <h2>UI设计师难度更大，但薪资更高</h2>
+                        </div>
+                        <div class="box b2 wow bounceIn" data-wow-delay="0.4s">
+                            <h1>公司更大</h1>
+                            <img src="picture/tbmg06-img2.png" />
+                            <h2>UI设计师更容易进入大企业</h2>
+                        </div>
+                        <div class="box b3 wow bounceIn" data-wow-delay="0.6s">
+                            <h1>机遇更多</h1>
+                            <img src="picture/tbmg06-img3.png" />
+                            <h2>行业内，对全能型设计师需求更多</h2>
+                        </div>
+                    </div>
+                    <a class="btn open-baidu-brg"  href="javascript:void(0)">成为全能设计师</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>奥骞网络科技 版权所有 渝ICP备18001293号</p>
+    </div>
+    <div class="fixbox">
+        <div class="fixbox-main">
+            <p>奥骞在线课程 免费学习5天</p>
+                <div  class="open-baidu-brg">					
+                    <input type="hidden" name="action" value="post" />
+                    <input type="hidden" name="diyid" value="1" />
+                    <input type="hidden" name="do" value="2" />
+                    
+                    
+                    <input class="text " type="text"  name="name" id="name"  onKeyUp="namekeyup()" placeholder="如何称呼您"/>
+                    <input class="text " type="text"  name="tel" id="phone" onKeyUp="phonekeyup()" placeholder="您的手机" />
+                    <input class="text"  type="text" name='qq' id='qq' onKeyUp="qqkeyup()" placeholder="您的QQ" />
+                    <input class="submit" type="submit" value="" onClick="return check()"  name="submit" />
+                     <input type="hidden" id="url"  name="url"  value=""/> 
+                     <input type="hidden" id="iurl"  name="iurl"  value=""/>
+                    <input type="hidden" id="time" name="time" value="" />
+                    <input type="hidden" name="dede_fields" value="name,text;phone,text;qq,text;url,text;time,text" />
+                    <input type="hidden" name="dede_fieldshash" value="8a472f2ab0cb5ce64dba5a9e3db105bd" />            
+                
+                </div>
+                
+                <script>
+                var url = window.location.href;
+                var time = new Date().toLocaleString();
+                document.getElementById("time").value=time;
+                document.getElementById("url").value=url;
+                </script>
+                
+				<script src="js/lyb.js" type="text/javascript"></script>
+                        <iframe width="0" height="0" name="actionframe" type="“hidden”"></iframe>
+
+            
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+<div id="iconDivMain1" class="open-baidu-brg" style="z-index: 10085; left: 1px; top: 165px; width: 119px; height: 501px; overflow: hidden; position: fixed;cursor: pointer;"><img src="img/icon_on_90075301520588409.gif" style="width: 120px; height: 500px;"></div>
+<style>
+	.css3btn{  bottom:470px;  right:5px;  z-index:9999;  position:fixed;  }  .css3btn a{  display:block;  text-decoration:none;  }  .css3btn img{  left:-10px;  top:50%;  margin-top:-35px;  position:absolute;  z-index:9999; border:0; }  .css3btn p{  font-size:15px;  width:230px;  height:45px;  line-height:45px;  text-indent:55px;  text-align:center;  color:#fff;  display:block;  overflow:hidden;  position: relative;  background:#ff5400;  background:linear-gradient(rgba(254,84,0,.8),rgba(255,118,50,.8));  text-transform: uppercase;  border-radius:20px;  }  .css3btn p.bubble:after {  content: "";  background: #fff;  position: absolute;  width: 200px;  height: 200px;  left: 35px;;  right: 0;  top: 0;  bottom: 0;  opacity: 0;  margin: auto;  border-radius:50%;  transform: scale(1);  animation:1s btn ease-in-out infinite;  }  @keyframes btn {0%{transform:scale(0);opacity: 1;}100%{transform:scale(1);opacity: 0;}}</style>
+
+<div class="css3btn">
+<a href="javascript:void(0)" class="open-baidu-brg"></a>
+<div class="css3btn"><a href="javascript:void(0)" class="open-baidu-brg"><img src="picture/t1.png"><p class="bubble">有位老师想和您聊一聊</p></a></div>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?fd74e8f9ce0ff4bad5a83064a8fc4006";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<script>
+$(function(){
+    $(".open-baidu-brg").on("click",function(){
+        $("#nb_icon_wrap").click();
+    })
+})
+</script>
+
+</body>
+</html>
